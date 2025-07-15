@@ -97,7 +97,7 @@
 
 	--button_bg_color: hsl(202, 10%, 84%);
 	--button_bg_hover: hsl(0, 59%, 41%);
-	--button_bg_active: hsl(0, 59%, 41%);
+	--button_bg_active: hsl(0, 100%, 40%);
 	--button_bg_focus: hsl(0, 59%, 41%);
 	--button_border_color: hsl(0, 0%, 87%) hsl(0, 0%, 73%) hsl(0, 0%, 67%) hsl(0, 0%, 87%);
 	--button_border_style: solid;
@@ -234,7 +234,7 @@
 
 	--footer_bg_color: transparent;
 	--footer_font_size: 0.9em;
-	--footer_txt_color: hsl(0, 0%, 100%);
+	--footer_txt_color: hsl(0, 0%, 96%);
 
 	/* Generic & Progress Bar */
 
@@ -366,17 +366,17 @@
 	
 	/* Popup Windows */
 
-	--popup_container_bg_color: linear-gradient(to bottom, hsl(218, 13%, 88%) 0%, hsl(0, 0%, 100%) 80%);
-	--popup_content_bg_color: hsl(0, 0%, 95%);
+	--popup_container_bg_color: linear-gradient(to bottom, hsla(218, 13%, 88%, 0.4) 0%, hsla(0, 0%, 100%, 0.4) 80%);
+	--popup_content_bg_color: hsl(0, 0%, 96%);
 	--popup_content_txt_color: hsl(0, 0%, 13%);
 	--popup_content_border_color: hsl(0, 0%, 73%);
 	--popup_content_border_radius: 6px 6px 2px 2px;
 	--popup_content_box_shadow: 0 -2px 3px rgba(0, 0, 0, 0.15), 0 1px 1px rgba(255, 255, 255, 0.2);
 	--popup_heading_txt_color: hsl(0, 0%, 100%);
-	--popup_heading_bg_color: hsl(360, 89%, 28%);
-	--popup_window_bg_color: linear-gradient(to bottom, hsl(218, 13%, 88%) 0%, hsl(0, 0%, 100%) 80%);
+	--popup_heading_bg_color: hsl(0, 54%, 23%);
+	--popup_window_bg_color: linear-gradient(to bottom, hsl(0, 54%, 23%) 0%, hsl(0, 50%, 35%) 80%);
 	--popup_window_box_shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
-	--popup_window_border_color: hsl(0, 0%, 47%);
+	--popup_window_border_color: hsl(0, 54%, 3%);
 	--popup_window_border_radius: 7px 7px 3px 3px;
 
 	/* Post Bit Section */
@@ -1679,6 +1679,7 @@ html[lang="el-GR"] .inline_mod_check {
 }
 .button:hover, .button:focus {
 	color: var(--button_txt_color_hover);
+	background: var(--button_bg_hover);
 }
 .button:hover, #search_form .button:hover {
 	background: var(--button_bg_hover);
@@ -4452,7 +4453,7 @@ div.cat_bar {
 	font-size: 13px;
 	line-height: 1.3em;
 	font-weight: normal;
-	margin: -8px 0 4px 12px;
+	margin: -8px 0 9px 12px;
 }
 .cat_bar .desc a {
 	color: var(--cat_bar_link_color);
@@ -4511,7 +4512,7 @@ h3.titlebg, h4.titlebg, .titlebg, h3.subbg, h4.subbg, .subbg {
 	color: var(--title_bar_link);
 	font-weight: bold;
 	overflow: hidden;
-	padding: 8px 12px 6px 12px;
+	padding: 5px 12px 6px 12px;
 }
 .titlebg a {
 	background: none;
