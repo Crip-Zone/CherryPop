@@ -198,7 +198,6 @@
 
 .ui-datepicker table {
 	width: 100%;
-	/* font-size: .9em; */
 	border-collapse: collapse;
 	margin: 0 0 .4em;
 }
@@ -366,7 +365,6 @@
 }
 
 .ui-widget-content {
-/*	border: 1px solid #dddddd; */
 	background: #f2f2f2;
 	color: #333333;
 }
@@ -403,9 +401,6 @@
 works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
-/*	border-right: var(--border_width) var(--border_style) hsl(0, 0%, 88%);
-	border-bottom: var(--border_width) var(--border_style) hsl(0, 0%, 88%);
-	border-radius: 3px; */
 	background: transparent;
 	font-weight: normal;
 }
@@ -428,13 +423,7 @@ a:visited.ui-button,
 .ui-widget-header .ui-state-focus,
 .ui-button:hover,
 .ui-button:focus {
-/*	background: #597b9f;
-	border: 1px solid #4a6b8c; */
-/*	color: #fff; */
 	cursor: pointer;
-/*	text-decoration: none;
-	box-shadow: 0 4px 4px rgba(255, 255, 255, 0.1) inset;
-	text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5); */
 }
 
 .ui-state-hover a,
@@ -465,7 +454,6 @@ a.ui-button:active,
 	color: #fff;
 	font-weight: bold;
 	border-left: 1px solid rgba(0, 0, 0, 0.6);
-/*	box-shadow: 0 5px 5px rgba(255, 255, 255, 0.2) inset; */
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -478,7 +466,6 @@ a.ui-button:active,
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-	/* color: #ffffff; */
 	text-decoration: none;
 }
 
