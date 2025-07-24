@@ -96,7 +96,7 @@ td.days:hover {
 	width: 14%;
 	padding: 5px 10px;
 	text-align: left;
-	
+	color: var(--black);
 }
 #main_grid td.weeks {
 	text-align: center;
@@ -150,9 +150,11 @@ td.days:hover {
 	text-align: left;
 	border-right: var(--border_width) var(--border_style) hsl(0, 0%, 88%);
 	border-bottom: var(--border_width) var(--border_style) hsl(0, 0%, 88%) ;
+	color: var(--black);
 }
 #main_grid td.days {
 	padding: 5px;
+	color: var(--black);
 }
 #month_grid td.days {
 	padding: 0;
@@ -365,4 +367,8 @@ span.hidelink {
 		clear: both;
 		padding: 10px 0 0;
 	}
+}
+a, a:visited, a:hover, a:visited:hover {
+  color: var(--black);
+  text-decoration: none;
 }
